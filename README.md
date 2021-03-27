@@ -28,7 +28,7 @@ reliable, depending on the system and how up-to-date it is.
 The SDL2_ttf config file will automatically find Freetype.
 
 ## License
-See LICENSE.
+See [LICENSE](./LICENSE).
 
 ## Contributing
 All contributions and suggestions are very welcome.
