@@ -19,7 +19,7 @@ else()
   add_library(SDL2_ttf::SDL2_ttf SHARED IMPORTED GLOBAL)
   set_target_properties(SDL2_ttf::SDL2_ttf PROPERTIES
     IMPORTED_LINK_INTERFACE_LANGUAGES "C"
-    IMPORTED_LOCATION ${SDL2_image_LIBRARIES}
+    IMPORTED_LOCATION ${SDL2_ttf_LIBRARIES}
   )
   target_link_libraries(SDL2_ttf::SDL2_ttf INTERFACE
     ${SDL2_ttf_LIBRARIES}
